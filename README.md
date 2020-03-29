@@ -1,5 +1,6 @@
 # Welcome to python tutorials
 This is a tutorial series on python 3.
+* [Project Board](https://github.com/sal0w/sal0w/projects/2?add_cards_query=is%3Aopen)
 
 ## Development Environment
 Please install the following software.
