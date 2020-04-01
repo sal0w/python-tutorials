@@ -7,5 +7,14 @@ This is a tutorial series on python 3.
 Please install the following software.
 * [Anaconda](https://www.anaconda.com/distribution/)
 * [Visual Studio Code](https://code.visualstudio.com/)
+
+## Environment Setup
+Execute the following steps:
+```bash
+conda activate myenv
+python3
+```
+>For for initial setup refer: [Conda Docs](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+
 ## Basics
 ### Data types
