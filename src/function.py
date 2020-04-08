@@ -76,3 +76,20 @@ def cheeseshop(*value, **keywords):
 
 
 cheeseshop("huuhiu",pos ="uhkuhi")
+d = {"voltage": "four million", "state": "bleedin' demised", "action": "VOOM"}
+""" ** - unpacking
+voltage = "four million"
+state =  "bleedin' demised"
+action = "VOOM"
+"""
+parrot(**d)
+
+def sort_string(pair):
+    # print(pair)
+    return pair[0] + pair[1]
+
+# Lambda functions
+pairs = [[1, 5], [2, 9], [3, 7], [4, 14]]
+# pairs.sort(key = sort_string, reverse=True)
+pairs.sort(key=lambda a: a[0]+a[1])
+print(pairs)
